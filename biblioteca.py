@@ -1,4 +1,4 @@
-class Pessoa():
+"""class Pessoa():
     def __init__(self, nome, idade, peso):
         self.nome = nome
         self.idade = idade
@@ -18,4 +18,14 @@ class Pessoa():
     def dormir(self):
         if self.dormindo == True:
             print(f" {self.nome} já está dormindo.")
-        print(f" {self.nome} começou a dormir")
+        print(f" {self.nome} começou a dormir")"""
+
+class Banco():
+    def __init__(self, numero, saldo, nome, tipo, status):
+        self.numero = numero
+        self.saldo = saldo
+        self.nome = nome
+        self.tipo = tipo
+        self. status = status
+    def atvConta
+        if
