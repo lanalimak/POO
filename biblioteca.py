@@ -73,3 +73,38 @@ class Vip(Ingresso):
         super().__init__(valor)
     def valorVip(self):
         print (f"O valor VIP é {self.valor+50}")
+
+class Forma():
+    def __init__():
+        self.area = 0
+        self.perimetro = 0
+
+"""class Retangulo (Forma):
+    def __init__(self):
+    super().__init__()
+
+    def calcularA (self, base, altura):
+        self.area = base*altura
+        print (f"Área do retângulo é {self.area}")
+    def calcularPc(self, base, altura):
+        self.perimetro = 2*(base + altura)
+        print (f"O perímetro do retângulo é {self.perimetro}")"""
+
+class Atleta:
+    def __init__(self, nome, peso):
+        self.nome = nome
+        self.peso = 0
+        self.aposentado = False
+        self.aquecer = False
+
+    def testar_participacao(self):
+        if self.aposentado:
+            print(f"{self.nome} está aposentado.")
+        else:
+            print(f"{self.nome} pode participar porque não está aposentado.")
+
+    def aquecer(self):
+        if self.aposentado:
+            print(f"{self.nome} está aposentado.")
+        else:
+            print(f"{self.nome} pode participar porque não está aposentado.")
