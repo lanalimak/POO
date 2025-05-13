@@ -1,4 +1,4 @@
 from biblioteca import Coelho
-pet = Coelho ("Coelhão", "Cinza")
-pet.guinchar()
+pet = Coelho ("Dona Coelha", "Cinza")
 pet.comer()
+pet.guinchar()

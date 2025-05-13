@@ -62,9 +62,14 @@ class Vaca(Animal):
     def mugir(self):
         print(f" {self.nome} está mugindo...")
 
-class Ingresso()
-    def __init__(self, valor, vip):
+class Ingresso():
+    def __init__(self, valor):
         self.valor = valor
-        self.vip = vip
-    def comprar
-        super().__init__(valor, vip)
+    def ImprimeValor(self):
+        print (f"O valor do ingresso é {self.valor}")
+
+class Vip(Ingresso):
+    def __init__(self, valor):
+        super().__init__(valor)
+    def valorVip(self):
+        print (f"O valor VIP é {self.valor+50}")
